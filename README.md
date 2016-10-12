@@ -1,10 +1,10 @@
-# First Udacity's Nanodegree Project: Movie Website
+# First Project - Movie website
 
 by Charalampos Kanellopoulos, for Udacity's Full Stack Nanodegree.
 
 ### About
 
-This project provides a simple server-side script to generate a website of movie trailers from a CSV data file.
+This project provide a website where the user can view movie trailers and their poster.
 
 ### How to run
 First clone this repository and run `fresh_tomatoes.py`.<br />

@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create 3 instances of class Movie from  media.py
 toy_story = media.Movie("Toy Story",
                         "A story of a boy with his toys",
                         "https://upload.wikimedia.org/wikipedia/el/thumb/4/44/220px-Movie_poster_toy_story.jpg/250px-"
@@ -20,6 +21,8 @@ fast_and_furious = media.Movie("Fast and the Furious 5 ",
                                "Five_poster.jpg",
                                "https://www.youtube.com/watch?v=bf4oDjHUmkY")
 
-
+# create movies list for the fresh_tomatoes.py
 movies = [toy_story, avatar, fast_and_furious]
+
+# call open_movies_page function from fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
